@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - OUTDO</title>
+<style>
+  :root {
+    --primary: #ff5a1f;
+    --dark: #1a1a1a;
+    --gray: #666;
+    --light-bg: #f7f7f9;
+    --border: #e5e5e8;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--light-bg);
+    color: var(--dark);
+    line-height: 1.6;
+  }
+
+  header {
+    background: var(--dark);
+    color: #fff;
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  header .logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 28px 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+
+  h1 {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    color: var(--gray);
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: step;
+  }
+
+  .steps li {
+    counter-increment: step;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .steps li:last-child {
+    border-bottom: none;
+  }
+
+  .steps li::before {
+    content: counter(step);
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .path {
+    background: var(--light-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .path span {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 10px;
+  }
+
+  .path .arrow {
+    color: var(--gray);
+    border: none;
+    background: none;
+    padding: 0;
+  }
+
+  .note {
+    background: #fff6ed;
+    border: 1px solid #ffd8b8;
+    border-radius: 10px;
+    padding: 16px 18px;
+    font-size: 14px;
+    color: #7a3d10;
+  }
+
+  .note strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #7a3d10;
+  }
+
+  ul.data-list {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  ul.data-list li {
+    margin-bottom: 8px;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    padding: 24px 16px 40px;
+  }
+
+  a {
+    color: var(--primary);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">OUTDO</div>
+</header>
+
+<main>
+  <section class="card">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Last Updated: September 25, 2026</p>
+    <p>OUTDO (&quot;we&quot;, &quot;our&quot;, or &quot;the App&quot;) respects your privacy. This Privacy Policy explains what information is collected when you use OUTDO, how that information is used, how it is stored, and the choices available to you regarding your information.</p>
+    <p>By using OUTDO, you acknowledge the practices described in this Privacy Policy.</p>
+    <p>OUTDO collects only information necessary to provide and maintain the application&#x27;s features.</p>
+  </section>
+  <section class="card">
+    <h2>Account Information</h2>
+    <p>OUTDO uses Google authentication to allow users to create and access their accounts.</p>
+    <p>When you sign in using Google, we may receive basic account information made available through the authentication process, such as:</p>
+    <ul class="data-list">
+      <li>Name</li>
+      <li>Email address</li>
+      <li>Google account/user identifier</li>
+      <li>Profile image, if made available</li>
+    </ul>
+    <p>OUTDO does not receive or store your Google password.</p>
+    <p>Authentication and account management are provided using Supabase Authentication. Supabase supports third-party/social authentication providers and stores authentication information associated with users.</p>
+  </section>
+  <section class="card">
+    <h2>Workout Information</h2>
+    <p>When you use OUTDO, you may voluntarily provide workout-related information, including:</p>
+    <ul class="data-list">
+      <li>Workout days</li>
+      <li>Selected body parts</li>
+      <li>Exercises</li>
+      <li>Number of sets</li>
+      <li>Number of repetitions</li>
+      <li>Weight used for an exercise</li>
+      <li>Workout history</li>
+      <li>Workout progress and related records</li>
+    </ul>
+    <p>This information is used to provide features such as workout tracking, workout history, and comparison with previous workouts.</p>
+  </section>
+  <section class="card">
+    <h2>How We Use Information</h2>
+    <p>Information collected by OUTDO may be used to:</p>
+    <ul class="data-list">
+      <li>Create and manage your account.</li>
+      <li>Authenticate you when you sign in.</li>
+      <li>Save your workout plans and workout history.</li>
+      <li>Display your previous workout information.</li>
+      <li>Compare current and previous workout performance.</li>
+      <li>Synchronize locally stored workout information with your account when an internet connection is available.</li>
+      <li>Maintain the functionality, reliability, and security of the App.</li>
+      <li>Respond to support or account-related requests.</li>
+    </ul>
+    <p>We do not sell your personal information.</p>
+  </section>
+  <section class="card">
+    <h2>Google Sign-In</h2>
+    <p>OUTDO uses Google Sign-In as an authentication method.</p>
+    <p>When you choose to sign in with Google, Google may provide basic account information required to authenticate you.</p>
+    <p>The information received depends on the permissions requested by OUTDO and the information made available by your Google account.</p>
+    <p>OUTDO does not have access to your Google account password.</p>
+  </section>
+  <section class="card">
+    <h2>Data Storage and Supabase</h2>
+    <p>OUTDO uses Supabase for backend services, including authentication and database functionality.</p>
+    <p>Your account information and synchronized application data may therefore be processed and stored using Supabase infrastructure.</p>
+    <p>Supabase states that customer data is generally processed on behalf of its customers, while developers remain responsible for how their applications use and configure the service.</p>
+    <p>Some workout information may also be stored locally on your device to provide offline functionality. When an internet connection becomes available, eligible locally stored information may be synchronized with the backend.</p>
+    <p>For more information about Supabase&#x27;s privacy practices, see <a href="https://supabase.com/privacy">Supabase Privacy Policy</a>.</p>
+  </section>
+  <section class="card">
+    <h2>Sharing Information</h2>
+    <p>We do not sell or rent your personal information.</p>
+    <p>Information may be processed by third-party service providers necessary for operating OUTDO, including:</p>
+    <p>Google — used for user authentication.</p>
+    <p>Supabase — used for authentication, database storage, synchronization, and backend infrastructure.</p>
+    <p>Information may also be disclosed when reasonably necessary to comply with applicable laws, regulations, legal processes, or valid governmental requests.</p>
+  </section>
+  <section class="card">
+    <h2>Offline Functionality</h2>
+    <p>OUTDO is designed to support offline functionality.</p>
+    <p>Certain workout information may be stored locally on your device so that you can continue using supported features without an active internet connection.</p>
+    <p>When connectivity becomes available, locally stored data may be synchronized with your OUTDO account.</p>
+    <p>Removing the application from your device may remove locally stored application data that has not been synchronized.</p>
+  </section>
+  <section class="card">
+    <h2>Data Security</h2>
+    <p>We take reasonable technical and organizational measures to protect information handled through OUTDO.</p>
+    <p>OUTDO relies on established service providers, including Supabase, for authentication and backend infrastructure. However, no electronic storage, network transmission, or information system can be guaranteed to be completely secure.</p>
+  </section>
+  <section class="card">
+    <h2>Data Retention</h2>
+    <p>We retain account and workout information for as long as reasonably necessary to provide OUTDO&#x27;s services or until you request deletion of your account, except where information must be retained for legitimate legal, security, fraud-prevention, or regulatory reasons.</p>
+    <p>If any information must be retained after an account-deletion request, it will only be retained for the applicable required purpose and period.</p>
+  </section>
+  <section class="card">
+    <h2>Account and Data Deletion</h2>
+    <p>You may request deletion of your OUTDO account and associated data.</p>
+    <p>From the OUTDO app:</p>
+    <p>Go to:</p>
+    <p>Profile → Settings → Delete Account</p>
+    <p>and follow the instructions provided.</p>
+    <p>You may also request account deletion without having the application installed by visiting:</p>
+    <p><a href="index.html">Request account deletion</a></p>
+    <p>When an account-deletion request is completed, OUTDO will delete the user&#x27;s account and associated application data, including applicable workout records and account information, except information that must be retained for legitimate legal or regulatory reasons.</p>
+    <p>Deleting the app from your device by itself does not constitute an account-deletion request.</p>
+  </section>
+  <section class="card">
+    <h2>Children’s Privacy</h2>
+    <p>OUTDO is not specifically directed toward children under the age of 13.</p>
+    <p>We do not knowingly collect personal information from children under 13. If we become aware that personal information from a child under 13 has been collected in circumstances where it should not have been, we will take reasonable steps to delete that information.</p>
+  </section>
+  <section class="card">
+    <h2>Your Choices</h2>
+    <p>You may:</p>
+    <ul class="data-list">
+      <li>Stop using OUTDO at any time.</li>
+      <li>Request deletion of your account.</li>
+      <li>Request deletion of associated personal data.</li>
+      <li>Contact us regarding questions about your information or this Privacy Policy.</li>
+    </ul>
+    <p>You can also manage permissions associated with your Google account through Google&#x27;s account settings.</p>
+  </section>
+  <section class="card">
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy when OUTDO&#x27;s functionality, data practices, third-party services, or applicable requirements change.</p>
+    <p>When changes are made, the Last Updated date at the top of this Privacy Policy will be updated.</p>
+    <p>We encourage users to periodically review this Privacy Policy.</p>
+  </section>
+  <section class="card">
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, your information, or account deletion, contact:</p>
+    <p>App: OUTDO</p>
+    <p>Developer: Amit Dewangan</p>
+    <p>Email: <a href="mailto:support@outdoapp.com">support@outdoapp.com</a></p>
+  </section>
+</main>
+
+<footer>
+  <p><a href="index.html">Delete Your Account</a></p>
+  &copy; 2026 OUTDO. All rights reserved.
+</footer>
+
+</body>
+</html>
